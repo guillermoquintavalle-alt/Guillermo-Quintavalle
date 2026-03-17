@@ -1,0 +1,14 @@
+Que es una liberia: 
+Una libreria es un conjunto reutilizable de codigos/Funciones.
+
+Que es un framework:
+Un un framework o marco de trabajo es una estructura que define como debe organizarse y ejecutarse tu aplicacion."tu escribes qel codigo que encaja en las reglas y en los puntos de entrada que el FW. define"
+
+Vue JS:
+Framework de Java script, Conjunto de carpetas y de sus carpetas donde nos va a decir donde va a ir cada seccion respetando cada estructura. Se centra en la capa de vista "UI" (interfaz de usuario)
+
+Frontend: Visual Java script, HTML, CSS.
+
+Backend: Operacional, logica PHP, MySQL.
+
+IDE. Integral Develop Enviroment, Entorno de Desarrollo Integrado
