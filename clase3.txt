@@ -1,0 +1,8 @@
+Lenguaje clase #3
+
+npm: Gestor de librerías de node
+
+Comandos:
+npm create vite@latest -> instala la tecnologia
+npm install ------------> sirve para instalar las dependencias del proyecto
+npm run dev-------------> sirve para levantar un servidor local a través de vite para correr la aplicación
