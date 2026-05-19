@@ -14,10 +14,10 @@
 </template>
 
 <script setup>
-import Header from './Header.vue'
-import Hero from './Hero.vue'
-import Location from './Location.vue'
-import Catalog from './Catalog.vue'
+import Header from './components/Header.vue'
+import Hero from './components/Hero.vue'
+import Location from './components/Location.vue'
+import Catalog from './components/Catalog.vue'
 </script>
 
 <style scoped>
