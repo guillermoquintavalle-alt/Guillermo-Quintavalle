@@ -1,0 +1,55 @@
+=================================================================
+                             NPM
+=================================================================
+
+1. INICIAR UN PROYECTO NUEVO
+-----------------------------------------------------------------
+# Crear el archivo 'package.json' respondiendo las preguntas (nombre, versión, etc.)
+npm init
+
+# Crear el 'package.json' salteando las preguntas (pone todo por defecto, ideal para ir rápido)
+npm init -y
+
+
+2. INSTALAR LIBRERÍAS (PAQUETES)
+-----------------------------------------------------------------
+# Descargar un paquete y agregarlo a tu proyecto (se guarda en 'dependencies')
+npm install nombre-del-paquete
+# (Atajo rápido: npm i nombre-del-paquete)
+
+# Instalar una librería solo para desarrollo (ej: herramientas de testing, linters, etc.)
+npm install nombre-del-paquete --save-dev
+# (Atajo rápido: npm i -D nombre-del-paquete)
+
+# Instalar un paquete de forma global en tu computadora (para usarlo en cualquier lado desde la terminal)
+npm install -g nombre-del-paquete
+
+
+3. CLONASTE UN REPO? EL COMANDO MÁS IMPORTANTE
+-----------------------------------------------------------------
+# Cuando bajas un proyecto de GitHub, NUNCA viene con la carpeta 'node_modules' (pesa mucho).
+# Para descargar automáticamente todas las librerías que el proyecto necesita para funcionar:
+npm install
+
+
+4. DESINSTALAR Y ACTUALIZAR
+-----------------------------------------------------------------
+# Borrar por completo una librería de tu proyecto
+npm uninstall nombre-del-paquete
+
+# Ver qué paquetes quedaron viejos/desactualizados
+npm outdated
+
+# Actualizar las librerías a la última versión permitida por tu package.json
+npm update
+
+
+5. EJECUTAR SCRIPTS (COMANDOS PERSONALIZADOS)
+-----------------------------------------------------------------
+# En tu 'package.json' vas a ver una sección que dice "scripts". 
+# Para correr el script de desarrollo (muy común en frameworks como Vue, React, Vite, etc.):
+npm run dev
+
+# Para correr otros scripts configurados (ej: build, test, start):
+npm run build
+npm run test

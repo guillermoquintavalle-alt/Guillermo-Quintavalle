@@ -1,0 +1,16 @@
+Machete Git - Clonar y Subir Cambios
+
+1.  Clonar un repositorio por primera vez
+    cd ruta/de/tu/carpeta
+    git clone URL_DEL_REPOSITORIO
+    cd nombre-del-repositorio
+
+2.  El flujo diario para subir cambios
+    git status
+    git add .
+    git commit -m "Explicación breve de los cambios"
+    git push origin main
+
+3.  Comandos útiles de salvavidas
+    git pull origin main
+    git log --oneline
